@@ -1,0 +1,33 @@
+{
+  "TOGGLE": {
+    "type": "devices.capabilities.on_off",
+    "parameters": {
+      "instance": "on"
+    }
+  },
+  "RANGE": {
+    "type": "devices.capabilities.range",
+    "parameters": {
+      "instance": "brightness",
+      "unit": "unit.percent",
+      "range": {
+        "min": 0,
+        "max": 100
+      }
+    }
+  },
+  "TEMPERATURE": {
+    "type": "devices.properties.float",
+    "parameters": {
+      "instance": "temperature",
+      "unit": "unit.temperature.celsius"
+    }
+  },
+  "HUMIDITY": {
+    "type": "devices.properties.float",
+    "parameters": {
+      "instance": "humidity",
+      "unit": "unit.percent"
+    }
+  }
+}

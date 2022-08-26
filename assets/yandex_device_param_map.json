@@ -1,0 +1,38 @@
+{
+  "RELAY": {
+    "desc": "Реле",
+    "type": "devices.types.switch"
+  },
+  "BUTTON": {
+    "desc": "Кнопка",
+    "type": "devices.types.switch"
+  },
+  "CONTROLLER": {
+    "desc": "Контроллер",
+    "type": "devices.types.other"
+  },
+  "LED_1_DIM": {
+    "desc": "Светодиодная лента",
+    "type": "devices.types.media_device"
+  },
+  "LUA_INTERPRETER": {
+    "desc": "Интерпретатор Lua",
+    "type": "devices.types.other"
+  },
+  "PC2LOGICAL_ADAPTER": {
+    "desc": "Логический адаптер сети Khawasu",
+    "type": "devices.types.other"
+  },
+  "TEMP_HUM_SENSOR": {
+    "desc": "Датчик температуры и влажности",
+    "type": "devices.types.sensor"
+  },
+  "TEMP_SENSOR": {
+    "desc": "Датчик температуры",
+    "type": "devices.types.sensor"
+  },
+  "UNKNOWN": {
+    "desc": "Неизвестное устройство",
+    "type": "devices.types.other"
+  }
+}
