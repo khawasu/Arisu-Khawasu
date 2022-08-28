@@ -222,4 +222,4 @@ def action():
         return f"Error {type(ex).__name__}: {str(ex)}", 500
 
 
-app.run(host="192.168.1.194", port=1111)
+app.run(host=config.SERVER_HOST, port=config.SERVER_PORT)

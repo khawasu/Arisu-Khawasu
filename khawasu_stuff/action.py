@@ -43,7 +43,6 @@ class Action:
         raise NotImplementedError(str(self.type))
 
     def format_bytes_to_data(self, row_data: bytes) -> Any:
-        print("FORMAT", row_data)
         # Row bytes
         if self.type == ActionType.IMMEDIATE:
             return row_data
